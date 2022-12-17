@@ -1,0 +1,165 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    padding: 10px 10%;
+    background-color: rgb(97, 51, 51);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+ nav ul li{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(255, 237, 223);
+    text-decoration: none;
+    padding: 5px ;
+} 
+
+nav ul li:hover{
+    background-color: white;
+    color: black;
+    transition: 0,5s;
+    border-radius: 5px;
+}
+.bgrnd{
+    display: flex;
+}
+.bgrnd ul li{
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 237, 223);
+}s
+#about{
+    width: 87%;
+    padding: 100px 100px;
+    background: linear-gradient(rgb(225, 80, 80), white );
+    color: rgb(17, 13, 14);
+}
+#about h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(21, 18, 19);
+}
+#border h1{
+    padding: 20px;
+    text-align: center;
+}
+#border p{
+    text-align: justify;
+    font-size: 20px;
+}
+#border{
+    text-align: center;
+    color: rgb(11, 11, 11);
+    padding: 70px 70px;
+    border-radius: 10px;
+    width: 50%;
+    background: linear-gradient(rgb(193, 217, 61), white );
+    margin-left: 20%;
+}
+#border1{
+    text-align: center;
+    color: rgb(11, 11, 11);
+    padding: 70px 70px;
+    border-radius: 10px;
+    width: 50%;
+    background: linear-gradient(rgb(193, 217, 61), white );
+    margin-left: 20%;
+}
+.data{
+    padding: 8% 30%;
+    background: linear-gradient(rgb(213, 170, 138), rgb(227, 62, 62) );
+}
+.data h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(123, 74, 90);
+}
+.tabel{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+.tabel thead{
+    background-color: rgb(123, 74, 90);
+}
+.tabel tr th{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: rgb(255, 237, 223);
+    padding: 20px;
+    vertical-align: top;
+    border: 1px solid rgb(123, 74, 90);
+}
+.tabel tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: white;
+    background-color:  rgb(216, 211, 112);
+    padding: 12px;
+    border: 1px solid rgb(123, 74, 90);
+}
+.form{
+    padding: 8% 30%;
+    background: linear-gradient(rgb(237, 51, 51), white );
+}
+.form h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(11, 13, 11);
+}
+.tabel2{
+        width: 100%;
+        border-collapse: collapse;
+       background-color: rgb(121, 200, 37);;
+}
+.gambar{
+    display: block;
+    margin-top: -150px;
+    margin-left: 700pt;
+    padding: 20px;
+}
+   
+  label {
+    font-size: 15pt;
+    color: #555;
+  }
+   
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    padding: 8px;
+    width: 95%;
+    background: rgb(223, 182, 78);
+    border-radius: 30px;
+    font-size: 10pt;
+    margin: 6px 0px;
+  }
+   
+  .tombol {
+    background: rgb(179, 165, 179);
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 8px;
+  }
+
+  
+  
+  
+  
+  
+  
+  

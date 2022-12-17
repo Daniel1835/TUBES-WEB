@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(56, 154, 206), white );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgb(20, 177, 180), white );
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 10px 5px black;
+}
+
+.login h2{
+    text-align: center;
+    color: rgb(18, 17, 17);
+    padding-top: 10px;
+    letter-spacing: 5px;
+}
+.box-login{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(12, 11, 11);
+    padding: 8px;
+}
+.box-login i{
+    font-size: 20px;
+    color: rgb(30, 28, 28);
+}
+.box-login input{
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    outline: none;
+}
+input[type=text], input[type=password] {
+    margin: 5px auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+.btn-login{
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border: 1px solid rgb(25, 24, 24);
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-login:hover{
+    background: white;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.bottom a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+.data{
+    padding: 10% 30%;
+    margin: 40px auto 0;
+}
+.data h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(27, 24, 25);
+}
+.tabel{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+.tabel thead{
+    background-color: rgb(13, 12, 13);
+}
+.tabel tr th{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: rgb(23, 21, 19);
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid rgb(112, 49, 69);
+}
+.tabel tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: white;
+    background-color:  rgb(29, 27, 28);
+    padding: 8px;
+    border: 1px solid rgb(112, 49, 69);
+}
+

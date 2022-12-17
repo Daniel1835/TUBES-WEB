@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BukuStore3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptfrom.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="bgrnd">
+            <img src="Daniel.jpeg" alt="" width="60px" height="60px">
+            <ul>
+                <li><b>DANIEL IRWANSYAH</b></li>
+                <li><b>F55121075</b></li>
+            </ul></div>
+        <nav>
+        <ul >
+            <a href="Hal1.html" ><li>HOME</li></a>
+            <a href="Hal2.html" ><li>DATA PENUALAN BUKU</li></a>
+            <a href="Hal3.html"><li>PEMESANAN</li></a>
+            <a href="hal4.html"><li>TERLARIS</li></a>
+            <a href="index.html"><li>LOG OUT</li></a>
+        </ul>
+    </nav> 
+    </div>
+<div class="form">
+<h1>FORMULIR PEMESANAN</h1>
+    <form action="#">
+        <div>
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama" id="nama" />
+        </div>
+        <div>
+            <label>Pesanan:</label>
+            <input type="text" name="pes" id="pes" />
+        </div>
+        <div>
+            <label>Jumlah Pesanan:</label>
+            <input type="text" name="jum" id="jum" />
+        </div>
+        <div>
+            <label>Nomor Telp:</label>
+            <input type="number" name="telp" id="telp" />
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email" id="email" />
+        </div>
+        <div>
+            <label>Alamat:</label>
+            <textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
+        </div>
+        <div>
+            <input type="button" value="Submit" 
+            class="tombol" onclick="validasi()">
+            <input type="reset" value="Reset" class="tombol">
+        </div>
+    </form>
+</div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

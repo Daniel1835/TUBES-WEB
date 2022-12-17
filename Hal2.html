@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BukuStore2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+ 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="scriptfrom.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="bgrnd">
+            <img src="Daniel.jpeg" alt="" width="60px" height="60px">
+            <ul>
+                <li><b>DANIEL IRWANSYAH</b></li>
+                <li><b>F55121075</b></li>
+            </ul></div>
+        <nav>
+        <ul >
+            <a href="Hal1.html" ><li>HOME</li></a>
+            <a href="Hal2.html" ><li>DATA PENUALAN BUKU</li></a>
+            <a href="Hal3.html"><li>PEMESANAN</li></a>
+            <a href="hal4.html"><li>TERLARIS</li></a>
+            <a href="index.html"><li>LOG OUT</li></a>
+        </ul>
+    </nav> 
+    </div>
+    <div class="data">
+        <h1>DAFTAR PRODUK</h1>
+        <table id="tabelsaya" class="tabel">
+            <thead>
+                <tr>
+                    <th>Judul Buku</th>
+                    <th>Genre Buku</th>
+                    <th>Stok</th>
+                    <th>terjual</th>
+                    <th>Tahun Produksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Laskar Pelangi</td>
+                    <td>Roman</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2005</td>
+                </tr>
+                <tr>
+                    <td>Ronggeng Dukuh Paruk</td>
+                    <td>Novel</td>
+                    <td>20</td>
+                    <td>15</td>
+                    <td>2003</td>
+                </tr>
+                <tr>
+                    <td>Tenggelamnya kapal Van der wijck</td>
+                    <td>Novel</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1938</td>
+                </tr>
+                <tr>
+                    <td>Think and Grow Rich</td>
+                    <td>Buku Bantuan Diri</td>
+                    <td>11</td>
+                    <td>3</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>The 7 Habits of Highly Effective People</td>
+                    <td>Buku Bantuan Diri</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1989</td>
+                </tr>
+                <tr>
+                    <td>The Power Of positive Thinking</td>
+                    <td>Buku Bantuan Diri</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>1952</td>
+                </tr>
+                <tr>
+                    <td>Mestakung</td>
+                    <td>Buku Bantuan Diri</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Young On Top</td>
+                    <td>Buku Bantuan Diri</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>The power of Doing Less</td>
+                    <td>Buku Bantuan Diri</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>2011</td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+       <script>
+        $(document).ready(function(){
+          $("#tabelsaya").DataTable();
+        });
+      </script>
+</body>
+</html>
